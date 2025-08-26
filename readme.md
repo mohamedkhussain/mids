@@ -1,6 +1,6 @@
 # Midfielder Similarity Explorer
 
-A data-driven project to analyse and visualise midfielder performance in Europe’s top football leagues. This project combines statistical analysis, dimensionality reduction, clustering, and an interactive Streamlit app to explore player similarities and playing styles.
+A data-driven project to analyse and visualise midfielder performance in Europe’s top football leagues, combining statistical analysis, dimensionality reduction, clustering, and an interactive Streamlit app to explore player similarities and playing styles.
 
 Interactive app link: [Midfielder Similarity App](https://midfielder-similarity.streamlit.app/)
 
@@ -11,7 +11,7 @@ This project aims to:
 * Collect and merge detailed midfielder statistics from multiple sources.
 * Explore relationships between metrics and reduce dimensionality using PCA.
 * Compute player similarity using distances derived from PCA projections.
-* Visualise player similarities via Multidimensional Scaling (MDS) and highlight clusters using K-means.
+* Visualise player similarities via MDS plots and highlight clusters using K-means.
 * Provide an interactive interface through a Streamlit app to search for similar players, view clusters, and compare percentile metrics.
 
 ## Data
@@ -22,7 +22,7 @@ This project aims to:
 ## Methods
 
 * **Correlation Analysis:** Explore relationships between features to identify redundancies and patterns.
-* **PCA:** Reduce dimensionality and identify the main axes of variation.
+* **PCA:** Higher dimensional projections based on variance in the data.
 * **MDS:** Project players into 2D space based on Euclidean and cosine distances from PCA projections.
 * **K-Means Clustering:** Group players into 4 clusters representing distinct midfielder archetypes.
 
@@ -34,12 +34,6 @@ The interactive app allows users to:
 * Toggle between Euclidean and cosine distances to explore different similarity perspectives.
 * Visualise players on MDS plots colored by cluster.
 * Compare players using radar charts and percentile metrics across shooting, passing, progression, creativity, defending, and errors.
-
-To run the app:
-
-```bash
-streamlit run mids_app.py
-```
 
 ## Streamlit App Preview
 
