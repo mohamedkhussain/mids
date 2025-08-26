@@ -44,7 +44,7 @@ streamlit run mids_app.py
 ### Player Similarity Search
 ![Similarity](streamlit_ss/mids_app_1.png)
 
-### Exploratora Plots
+### Exploratoratory Plots
 ![MDS](streamlit_ss/mids_app_2.png)
 
 ### Radar
