@@ -1,6 +1,7 @@
 # Midfielder Similarity Explorer
 
 A data-driven project to analyse and visualise midfielder performance in Europe’s top football leagues. This project combines statistical analysis, dimensionality reduction, clustering, and an interactive Streamlit app to explore player similarities and playing styles.
+
 Interactive app link: [Midfielder Similarity App](https://midfielder-similarity.streamlit.app/)
 
 ## Project Overview
